@@ -1,0 +1,235 @@
+/** Global CSS **/
+body {
+  background-image: linear-gradient(45deg, #05001b 30%, #3b3784 100%) !important;
+  height: 1500px;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #00fa00;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+/**for error msg **/
+.error-msg {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 550;
+  letter-spacing: 2px;
+  background-color: #ec5151;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+/** for input field **/
+.input-field {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  background-color: #59569d;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  border: 1px solid #59569d;
+  border-radius: 4px;
+  padding: 10px;
+  margin-block-end: 30px;
+  outline: none;
+  transition: border 0.25s ease;
+}
+
+input {
+  width: 100%;
+}
+.input-field:focus {
+  border-color: #8a88a4;
+}
+
+/** for margin **/
+.margin {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 150px;
+}
+/** for margin in success msg page **/
+.fmargin {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+/** for lottie height width in success msg page **/
+.flottie {
+  height: 300px;
+  width: 500px;
+}
+
+/** button1 **/
+.btnn {
+  background-color: orangered;
+  color: #ffffff;
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+  font-weight: 550;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  transition: 0.25s ease;
+}
+.btnn:hover {
+  background-color: #ff0c00;
+}
+
+.btnn i {
+  transition: 0.25s ease;
+}
+.btnn:hover i {
+  transform: rotate(-45deg);
+}
+
+
+/** button2 **/
+.btnnn {
+  color: #ffffff;
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+  font-weight: 550;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: 0.25s ease;
+}
+.btnnn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btnnn i {
+  opacity: 1;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transition: transform 400ms ease, opacity 0.2s linear !important;
+}
+.btnnn:hover i {
+  opacity: 0;
+  transform: translate(15px) rotate(0deg);
+}
+
+
+/** for less than 800px screen **/
+@media only screen and (max-width: 800px) {
+  .margin {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .fmargin {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .flottie {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+
+
+/** login page **/
+.login .forgot-text {
+  text-align: right;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.login .forgot-text a {
+  text-decoration: none;
+  color: white;
+}
+.login .forgot-text a:hover {
+  color: orangered;
+}
+
+.login .not-member-text {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.login .not-member-text a {
+  margin-left: 7px;
+  color: orangered;
+  text-decoration: none;
+}
+
+/** Register page **/
+.Register .alrdy-rgtrd-text {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.Register .alrdy-rgtrd-text a {
+  margin-left: 7px;
+  color: orangered;
+  text-decoration: none;
+}
+
+/** Welcome page **/
+.welcome p {
+  vertical-align: middle;
+  margin-bottom: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #00fa00;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
